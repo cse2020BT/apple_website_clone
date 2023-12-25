@@ -11,6 +11,7 @@ ul, li, ol {
     a {
     text-decoration: none;
 }
+/* here we can set the background colour of the whole website */
 body, main{
     margin: 0 auto;
     font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
@@ -112,11 +113,12 @@ header {
   }
 */
 
+/* here it is used to define the colour of the contents */
 .contents {
     background-color: white;
 }
 
-
+/* define the details of the image and set the properties of the image */
 .image-container .iphone-12 {
     height: 640px;
     width: 100%;
@@ -212,6 +214,7 @@ header {
     font-weight: 700;
 }
 
+/* we are setting the image border of the image */
 .unit-image{
     border-radius: 50px;
 }
