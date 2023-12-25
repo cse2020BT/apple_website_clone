@@ -1,6 +1,8 @@
 
 /* tablet size viewport */
+/* we can create the webiste according to the screen size so that we are using @media to adjust the website accordingly*/
 @media (max-width: 1024px){
+    /* this is the widht of the tablet or we can say that it the width of the laptop */ 
     .flex-list{
         flex-wrap: wrap;
     }
@@ -25,6 +27,7 @@
 }
     
 /* smartphone/handphone */
+/* here we are doing to adjust the website according to the screen like headphone */
 @media (max-width: 670px){
     .flex-list{
         flex-direction: column;
