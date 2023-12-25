@@ -8,6 +8,7 @@
     <title>Apple</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    
     <!-- <link rel="stylesheet" href="reset.css"> buat reset css -->
     <link rel="shortcut icon" type="image/jpg" href="./img/apple-logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
@@ -19,14 +20,16 @@
 </head>
 
 <body>
-    <!-- Bagian header-->
+    <!-- header begins here-->
     <header>
         <div class="header-wrapper">
             <span class="menu-logo hp-viewport fas fa-ellipsis-h"></span>
             <ul class="header-list">
-                
-                <li class="header-content hp-viewport apple-header"><a href="https://www.apple.com/"><img class="logo" src="./img/icons/logo.png"></a></li>
 
+                <!-- logo of apple -->
+                <li class="header-content hp-viewport apple-header"><a href="https://www.apple.com/"><img class="logo" src="./img/icons/logo.png"></a></li>
+                
+                <!-- here the list of all the provided products -->
                 <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/mac/">Mac</a></li>
                 <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/ipad/">iPad</a></li>
                 <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/iphone/">iPhone</a></li>
@@ -34,12 +37,15 @@
                 <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/tv/">TV</a></li>
                 <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/music/">Music</a></li>
                 <li class="header-content hp-viewport-hide"><a href="https://support.apple.com/">Support</a></li>
-                <!-- masukkin input search -->
+                
+                <!-- here it is used for the search bar and search logo -->
                 
                 <li class="header-content hp-viewport-hide fa-searchs"><a href="#" class="fas fa-search"></a></li>
+                
                 <!-- <input class="search" placeholder="search" type="search" name=""> -->
                 <!-- <li><a href="#" class="search"><i class="fas fa-search"></i></a></li>  -->
 
+                <!-- apple store logo and redirect to the apple store  -->
                 <li class="header-content hp-viewport header-shoping"><a href="https://www.apple.com/us/shop/goto/bag" class="fas fa-shopping-bag"></a></li>
             </ul>
         </div>
@@ -62,9 +68,8 @@
 
     <main>
 
-        <!-- Bagian content atas -->
-
-
+        <!-- image of the products -->
+        
         <div class="container">
             <div class="contents">
                 <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12/';" style="cursor: pointer;">
@@ -79,6 +84,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- location means if anyone clicks on it. It will redirect to the origional website -->
                 <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12-pro/';" style="cursor: pointer;">
                     <div class="iphone-12-pro">
                         <div class="title">
@@ -234,7 +240,7 @@
         </ul>
     </main>
 
-    <!-- Bagian footer-->
+    <!-- Begin footer-->
     <footer>
         <div class="footer-container">
             <div class="foot-notes">
